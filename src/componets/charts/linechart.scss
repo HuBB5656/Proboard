@@ -1,0 +1,38 @@
+.linechart{
+    display: flex;
+    height: 100%;
+    .userInfo{
+        display:flex;
+        flex:3;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            display: flex;
+            gap: 5px;
+
+        }
+    }
+    .chartInfo{
+        flex:2;
+        display: flex;
+        flex-direction: column;
+
+        .chart{
+            height: 100%;
+        }
+        .chartText{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+
+            .percentage{
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .duration{
+                font-size: 14px;
+            }
+        }
+    }
+}
