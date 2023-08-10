@@ -1,3 +1,4 @@
+
 export const menu = [
   {
     id: 1,
@@ -362,4 +363,117 @@ export const users=[
     createdAt:"02.04.2023",
     verified:true
   },
+];
+
+
+
+export const ProductList = [
+  {
+    id:1,
+    img:"https://th.bing.com/th/id/R.48b5d97ae2280a47bef17ced160acb63?rik=Lhd0RBdQK3IgSg&pid=ImgRaw&r=0",
+    title:"HandBag",
+    color:"LightBlue",
+    price:"250",
+    producer:"Malitan Inc",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+   {
+    id:2,
+    img:"https://th.bing.com/th/id/OIP.aK2oCHx5o4na95SPL9ekLgHaKl?pid=ImgDet&w=185&h=264&c=7&dpr=1.3",
+    title:"HandBag",
+    color:"Ranger",
+    price:"280",
+    producer:"Lavia LLC",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+  {
+    id:3,
+    img:"https://petapixel.com/assets/uploads/2017/03/product_feat.jpg",
+    title:"Sport Shue",
+    color:"White",
+    price:"800",
+    producer:"Addidas",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+   {
+    id:4,
+    img:"https://th.bing.com/th/id/OIP.AGJmZ4aiRlFB7G5_pQE3IwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title:"Sport Shue",
+    color:"White",
+    price:"800",
+    producer:"Addidas",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+   {
+    id:5,
+    img:"https://th.bing.com/th/id/OIP.8r4xMy5bZst11aKRCc56BwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title:"Sport Shue",
+    color:"White",
+    price:"800",
+    producer:"Addidas",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+    {
+    id:6,
+    img:"https://th.bing.com/th/id/R.48b5d97ae2280a47bef17ced160acb63?rik=Lhd0RBdQK3IgSg&pid=ImgRaw&r=0",
+    title:"HandBag",
+    color:"LightBlue",
+    price:"250",
+    producer:"Malitan Inc",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+   {
+    id:7,
+    img:"https://th.bing.com/th/id/OIP.aK2oCHx5o4na95SPL9ekLgHaKl?pid=ImgDet&w=185&h=264&c=7&dpr=1.3",
+    title:"HandBag",
+    color:"Ranger",
+    price:"280",
+    producer:"Lavia LLC",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+  {
+    id:8,
+    img:"https://petapixel.com/assets/uploads/2017/03/product_feat.jpg",
+    title:"Sport Shue",
+    color:"White",
+    price:"800",
+    producer:"Addidas",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+   {
+    id:9,
+    img:"https://th.bing.com/th/id/OIP.AGJmZ4aiRlFB7G5_pQE3IwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title:"Sport Shue",
+    color:"White",
+    price:"800",
+    producer:"Addidas",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+
+   {
+    id:10,
+    img:"https://th.bing.com/th/id/OIP.8r4xMy5bZst11aKRCc56BwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title:"Sport Shue",
+    color:"White",
+    price:"800",
+    producer:"Addidas",
+    createdAt:"02.04.2023",
+    instock:true
+  },
+  
 ];
