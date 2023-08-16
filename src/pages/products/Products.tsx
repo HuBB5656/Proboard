@@ -16,7 +16,7 @@ const columns: GridColDef[] = [
     {
       field: "title",
       headerName: "Title",
-      width: 250,
+      width: 200,
       editable: true,
       type:'string'
     },
@@ -32,7 +32,7 @@ const columns: GridColDef[] = [
       field: "price",
       headerName: "Price",
       type: "string",
-      width: 200,
+      width: 150,
       editable: true,
     },
       {
@@ -46,7 +46,7 @@ const columns: GridColDef[] = [
       field: "createdAt",
       headerName: "CreatedAt",
       type: "string",
-      width: 150,
+      width: 100,
       editable: true,
     },
     {

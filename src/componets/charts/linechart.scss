@@ -1,38 +1,59 @@
-.linechart{
+@import "./../../style/responsive.scss";
+
+.linechart {
+  display: flex;
+  height: 100%;
+  @include sm {
+    flex-direction: column;
+  }
+  .userInfo {
     display: flex;
-    height: 100%;
-    .userInfo{
-        display:flex;
-        flex:3;
-        flex-direction: column;
-        justify-content: space-between;
-
-        .title{
-            display: flex;
-            gap: 5px;
-
-        }
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    @include sm {
+      gap: 10px;
     }
-    .chartInfo{
-        flex:2;
-        display: flex;
-        flex-direction: column;
 
-        .chart{
-            height: 100%;
-        }
-        .chartText{
-            display: flex;
-            flex-direction: column;
-            text-align: right;
+    .title {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      @include xxl {
+        font-size: 14px;
+      }
 
-            .percentage{
-                font-weight: bold;
-                font-size: 18px;
-            }
-            .duration{
-                font-size: 14px;
-            }
+      h2 {
+        @include xxl {
+          font-size: 20px;
         }
+      }
     }
+  }
+  .chartInfo {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+    .chart {
+      height: 100%;
+    }
+    .chartText {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+
+      .percentage {
+        font-weight: bold;
+        font-size: 20px;
+
+        @include xxl {
+          font-size: 16px;
+        }
+      }
+      .duration {
+        font-size: 14px;
+      }
+    }
+  }
 }

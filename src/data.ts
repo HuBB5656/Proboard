@@ -1,4 +1,3 @@
-
 export const menu = [
   {
     id: 1,
@@ -35,7 +34,7 @@ export const menu = [
         icon: "product.svg",
       },
       {
-        id: 2,
+        id: 3,
         title: "Orders",
         url: "/orders",
         icon: "order.svg",
@@ -59,7 +58,7 @@ export const menu = [
         icon: "note.svg",
       },
       {
-        id: 2,
+        id: 3,
         title: "Forms",
         url: "/forms",
         icon: "form.svg",
@@ -260,220 +259,379 @@ export const totalVisit = {
   ],
 };
 
+export const users = [
+  {
+    id: 1,
+    img: "https://th.bing.com/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    firstName: "Habib",
+    lastName: "Mohammed",
+    email: "habib@gmail.com",
+    phone: "09343454545",
+    createdAt: "02.04.2023",
+    verified: true,
+  },
+  {
+    id: 2,
+    img: "https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    firstName: "Mahi",
+    lastName: "Yesuf",
+    email: "mahi@gmail.com",
+    phone: "0934090047",
+    createdAt: "02.04.2023",
+    verified: true,
+  },
+  {
+    id: 3,
+    img: "https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
+    firstName: "Shafi",
+    lastName: "Munir",
+    email: "Musd@gmail.com",
+    phone: "093409345349",
+    createdAt: "02.04.2023",
+    verified: true,
+  },
+  {
+    id: 4,
+    img: "https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
+    firstName: "Shafi",
+    lastName: "Munir",
+    email: "Musd@gmail.com",
+    phone: "093409345349",
+    createdAt: "02.04.2023",
+    verified: true,
+  },
+  {
+    id: 5,
+    img: "https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    firstName: "Mahi",
+    lastName: "Yesuf",
+    email: "mahi@gmail.com",
+    phone: "0934090047",
+    createdAt: "02.04.2023",
+    verified: false,
+  },
+  {
+    id: 6,
+    img: "https://th.bing.com/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    firstName: "Habib",
+    lastName: "Mohammed",
+    email: "habib@gmail.com",
+    phone: "09343454545",
+    createdAt: "02.04.2023",
+    verified: true,
+  },
 
-export const users=[
   {
-    id:1,
-    img:"https://th.bing.com/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    firstName:"Habib",
-    lastName:"Mohammed",
-    email:"habib@gmail.com",
-    phone:"09343454545",
-    createdAt:"02.04.2023",
-    verified:true
-  },
-    {
-    id:2,
-    img:"https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    firstName:"Mahi",
-    lastName:"Yesuf",
-    email:"mahi@gmail.com",
-    phone:"0934090047",
-    createdAt:"02.04.2023",
-    verified:true
-  },
-   {
-    id:3,
-    img:"https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
-    firstName:"Shafi",
-    lastName:"Munir",
-    email:"Musd@gmail.com",
-    phone:"093409345349",
-    createdAt:"02.04.2023",
-    verified:true
-  },
-   {
-    id:4,
-    img:"https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
-    firstName:"Shafi",
-    lastName:"Munir",
-    email:"Musd@gmail.com",
-    phone:"093409345349",
-    createdAt:"02.04.2023",
-    verified:true
+    id: 7,
+    img: "https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
+    firstName: "Shafi",
+    lastName: "Munir",
+    email: "Musd@gmail.com",
+    phone: "093409345349",
+    createdAt: "02.04.2023",
+    verified: false,
   },
   {
-    id:5,
-    img:"https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    firstName:"Mahi",
-    lastName:"Yesuf",
-    email:"mahi@gmail.com",
-    phone:"0934090047",
-    createdAt:"02.04.2023",
-    verified:false
+    id: 8,
+    img: "https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
+    firstName: "Shafi",
+    lastName: "Munir",
+    email: "Musd@gmail.com",
+    phone: "093409345349",
+    createdAt: "02.04.2023",
+    verified: true,
   },
   {
-    id:6,
-    img:"https://th.bing.com/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    firstName:"Habib",
-    lastName:"Mohammed",
-    email:"habib@gmail.com",
-    phone:"09343454545",
-    createdAt:"02.04.2023",
-    verified:true
-  },
-
-  {
-    id:7,
-    img:"https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
-    firstName:"Shafi",
-    lastName:"Munir",
-    email:"Musd@gmail.com",
-    phone:"093409345349",
-    createdAt:"02.04.2023",
-    verified:false
-  },
-   {
-    id:8,
-    img:"https://th.bing.com/th/id/OIP.CW7QaVuT2Wqv1pVaTtbsyAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.3",
-    firstName:"Shafi",
-    lastName:"Munir",
-    email:"Musd@gmail.com",
-    phone:"093409345349",
-    createdAt:"02.04.2023",
-    verified:true
+    id: 9,
+    img: "https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    firstName: "Mahi",
+    lastName: "Yesuf",
+    email: "mahi@gmail.com",
+    phone: "0934090047",
+    createdAt: "02.04.2023",
+    verified: false,
   },
   {
-    id:9,
-    img:"https://th.bing.com/th/id/OIP.ysdd9pBlwnNdnxQoC8y4KQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    firstName:"Mahi",
-    lastName:"Yesuf",
-    email:"mahi@gmail.com",
-    phone:"0934090047",
-    createdAt:"02.04.2023",
-    verified:false
-  },
-  {
-    id:10,
-    img:"https://th.bing.com/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-    firstName:"Habib",
-    lastName:"Mohammed",
-    email:"habib@gmail.com",
-    phone:"09343454545",
-    createdAt:"02.04.2023",
-    verified:true
+    id: 10,
+    img: "https://th.bing.com/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    firstName: "Habib",
+    lastName: "Mohammed",
+    email: "habib@gmail.com",
+    phone: "09343454545",
+    createdAt: "02.04.2023",
+    verified: true,
   },
 ];
-
-
 
 export const ProductList = [
   {
-    id:1,
-    img:"https://th.bing.com/th/id/R.48b5d97ae2280a47bef17ced160acb63?rik=Lhd0RBdQK3IgSg&pid=ImgRaw&r=0",
-    title:"HandBag",
-    color:"LightBlue",
-    price:"250",
-    producer:"Malitan Inc",
-    createdAt:"02.04.2023",
-    instock:true
+    id: 1,
+    img: "https://th.bing.com/th/id/R.48b5d97ae2280a47bef17ced160acb63?rik=Lhd0RBdQK3IgSg&pid=ImgRaw&r=0",
+    title: "HandBag",
+    color: "LightBlue",
+    price: "250",
+    producer: "Malitan Inc",
+    createdAt: "02.04.2023",
+    instock: true,
   },
-   {
-    id:2,
-    img:"https://th.bing.com/th/id/OIP.aK2oCHx5o4na95SPL9ekLgHaKl?pid=ImgDet&w=185&h=264&c=7&dpr=1.3",
-    title:"HandBag",
-    color:"Ranger",
-    price:"280",
-    producer:"Lavia LLC",
-    createdAt:"02.04.2023",
-    instock:true
+  {
+    id: 2,
+    img: "https://th.bing.com/th/id/OIP.aK2oCHx5o4na95SPL9ekLgHaKl?pid=ImgDet&w=185&h=264&c=7&dpr=1.3",
+    title: "HandBag",
+    color: "Ranger",
+    price: "280",
+    producer: "Lavia LLC",
+    createdAt: "02.04.2023",
+    instock: true,
   },
 
   {
-    id:3,
-    img:"https://petapixel.com/assets/uploads/2017/03/product_feat.jpg",
-    title:"Sport Shue",
-    color:"White",
-    price:"800",
-    producer:"Addidas",
-    createdAt:"02.04.2023",
-    instock:true
-  },
-
-   {
-    id:4,
-    img:"https://th.bing.com/th/id/OIP.AGJmZ4aiRlFB7G5_pQE3IwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
-    title:"Sport Shue",
-    color:"White",
-    price:"800",
-    producer:"Addidas",
-    createdAt:"02.04.2023",
-    instock:true
-  },
-
-   {
-    id:5,
-    img:"https://th.bing.com/th/id/OIP.8r4xMy5bZst11aKRCc56BwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
-    title:"Sport Shue",
-    color:"White",
-    price:"800",
-    producer:"Addidas",
-    createdAt:"02.04.2023",
-    instock:true
-  },
-
-    {
-    id:6,
-    img:"https://th.bing.com/th/id/R.48b5d97ae2280a47bef17ced160acb63?rik=Lhd0RBdQK3IgSg&pid=ImgRaw&r=0",
-    title:"HandBag",
-    color:"LightBlue",
-    price:"250",
-    producer:"Malitan Inc",
-    createdAt:"02.04.2023",
-    instock:true
-  },
-   {
-    id:7,
-    img:"https://th.bing.com/th/id/OIP.aK2oCHx5o4na95SPL9ekLgHaKl?pid=ImgDet&w=185&h=264&c=7&dpr=1.3",
-    title:"HandBag",
-    color:"Ranger",
-    price:"280",
-    producer:"Lavia LLC",
-    createdAt:"02.04.2023",
-    instock:true
+    id: 3,
+    img: "https://petapixel.com/assets/uploads/2017/03/product_feat.jpg",
+    title: "Sport Shue",
+    color: "White",
+    price: "800",
+    producer: "Addidas",
+    createdAt: "02.04.2023",
+    instock: true,
   },
 
   {
-    id:8,
-    img:"https://petapixel.com/assets/uploads/2017/03/product_feat.jpg",
-    title:"Sport Shue",
-    color:"White",
-    price:"800",
-    producer:"Addidas",
-    createdAt:"02.04.2023",
-    instock:true
+    id: 4,
+    img: "https://th.bing.com/th/id/OIP.AGJmZ4aiRlFB7G5_pQE3IwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title: "Sport Shue",
+    color: "White",
+    price: "800",
+    producer: "Addidas",
+    createdAt: "02.04.2023",
+    instock: true,
   },
 
-   {
-    id:9,
-    img:"https://th.bing.com/th/id/OIP.AGJmZ4aiRlFB7G5_pQE3IwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
-    title:"Sport Shue",
-    color:"White",
-    price:"800",
-    producer:"Addidas",
-    createdAt:"02.04.2023",
-    instock:true
+  {
+    id: 5,
+    img: "https://th.bing.com/th/id/OIP.8r4xMy5bZst11aKRCc56BwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title: "Sport Shue",
+    color: "White",
+    price: "800",
+    producer: "Addidas",
+    createdAt: "02.04.2023",
+    instock: true,
   },
 
-   {
-    id:10,
-    img:"https://th.bing.com/th/id/OIP.8r4xMy5bZst11aKRCc56BwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
-    title:"Sport Shue",
-    color:"White",
-    price:"800",
-    producer:"Addidas",
-    createdAt:"02.04.2023",
-    instock:true
+  {
+    id: 6,
+    img: "https://th.bing.com/th/id/R.48b5d97ae2280a47bef17ced160acb63?rik=Lhd0RBdQK3IgSg&pid=ImgRaw&r=0",
+    title: "HandBag",
+    color: "LightBlue",
+    price: "250",
+    producer: "Malitan Inc",
+    createdAt: "02.04.2023",
+    instock: true,
   },
-  
+  {
+    id: 7,
+    img: "https://th.bing.com/th/id/OIP.aK2oCHx5o4na95SPL9ekLgHaKl?pid=ImgDet&w=185&h=264&c=7&dpr=1.3",
+    title: "HandBag",
+    color: "Ranger",
+    price: "280",
+    producer: "Lavia LLC",
+    createdAt: "02.04.2023",
+    instock: true,
+  },
+
+  {
+    id: 8,
+    img: "https://petapixel.com/assets/uploads/2017/03/product_feat.jpg",
+    title: "Sport Shue",
+    color: "White",
+    price: "800",
+    producer: "Addidas",
+    createdAt: "02.04.2023",
+    instock: true,
+  },
+
+  {
+    id: 9,
+    img: "https://th.bing.com/th/id/OIP.AGJmZ4aiRlFB7G5_pQE3IwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title: "Sport Shue",
+    color: "White",
+    price: "800",
+    producer: "Addidas",
+    createdAt: "02.04.2023",
+    instock: true,
+  },
+
+  {
+    id: 10,
+    img: "https://th.bing.com/th/id/OIP.8r4xMy5bZst11aKRCc56BwHaE8?pid=ImgDet&w=207&h=138&c=7&dpr=1.3",
+    title: "Sport Shue",
+    color: "White",
+    price: "800",
+    producer: "Addidas",
+    createdAt: "02.04.2023",
+    instock: true,
+  },
 ];
+
+export const singleUser = {
+  id: 1,
+  title: "John Doe",
+  img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  info: {
+    username: "Johndoe99",
+    fullname: "John Doe",
+    email: "johndoe@gmail.com",
+    phone: "123 456 789",
+    status: "verified",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "clicks", color: "#8884d8" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 4000,
+        clicks: 2400,
+      },
+      {
+        name: "Mon",
+        visits: 3000,
+        clicks: 1398,
+      },
+      {
+        name: "Tue",
+        visits: 2000,
+        clicks: 3800,
+      },
+      {
+        name: "Wed",
+        visits: 2780,
+        clicks: 3908,
+      },
+      {
+        name: "Thu",
+        visits: 1890,
+        clicks: 4800,
+      },
+      {
+        name: "Fri",
+        visits: 2390,
+        clicks: 3800,
+      },
+      {
+        name: "Sat",
+        visits: 3490,
+        clicks: 4300,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "John Doe purchased Playstation 5 Digital Edition",
+      time: "3 day ago",
+    },
+    {
+      text: "John Doe added 3 items into their wishlist",
+      time: "1 week ago",
+    },
+    {
+      text: "John Doe purchased Sony Bravia KD-32w800",
+      time: "2 weeks ago",
+    },
+    {
+      text: "John Doe reviewed a product",
+      time: "1 month ago",
+    },
+    {
+      text: "John Doe added 1 items into their wishlist",
+      time: "1 month ago",
+    },
+    {
+      text: "John Doe reviewed a product",
+      time: "2 months ago",
+    },
+  ],
+};
+export const singleProduct = {
+  id: 1,
+  title: "Playstation 5 Digital Edition",
+  img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
+  info: {
+    productId: "Ps5SDF1156d",
+    color: "white",
+    price: "$250.99",
+    producer: "Sony",
+    export: "Japan",
+  },
+  chart: {
+    dataKeys: [
+      { name: "visits", color: "#82ca9d" },
+      { name: "orders", color: "#8884d8" },
+    ],
+    data: [
+      {
+        name: "Sun",
+        visits: 4000,
+        orders: 2400,
+      },
+      {
+        name: "Mon",
+        visits: 3000,
+        orders: 1398,
+      },
+      {
+        name: "Tue",
+        visits: 2000,
+        orders: 3800,
+      },
+      {
+        name: "Wed",
+        visits: 2780,
+        orders: 3908,
+      },
+      {
+        name: "Thu",
+        visits: 1890,
+        orders: 4800,
+      },
+      {
+        name: "Fri",
+        visits: 2390,
+        orders: 3800,
+      },
+      {
+        name: "Sat",
+        visits: 3490,
+        orders: 4300,
+      },
+    ],
+  },
+  activities: [
+    {
+      text: "John Doe purchased Playstation 5 Digital Edition",
+      time: "3 day ago",
+    },
+    {
+      text: "Jane Doe added Playstation 5 Digital Edition into their wishlist",
+      time: "1 week ago",
+    },
+    {
+      text: "Mike Doe purchased Playstation 5 Digital Edition",
+      time: "2 weeks ago",
+    },
+    {
+      text: "Anna Doe reviewed the product",
+      time: "1 month ago",
+    },
+    {
+      text: "Michael Doe added Playstation 5 Digital Edition into their wishlist",
+      time: "1 month ago",
+    },
+    {
+      text: "Helen Doe reviewed the product",
+      time: "2 months ago",
+    },
+  ],
+};
